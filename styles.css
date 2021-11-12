@@ -1,0 +1,125 @@
+
+   body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;  
+}
+
+    .container {
+        background-image: url("../images/pattern-background-desktop.svg");
+        background-repeat: no-repeat;
+        background-size: 100vw;
+        background-attachment: fixed;
+        background-color:hsl(240, 100%, 95%);
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .card {
+        background-color: #fff;
+        width: 350px;
+        border-radius: 20px;
+        text-align: center;
+        height: 100%;
+        max-height: 600px;
+        margin: auto;  
+    }
+
+    .hero img {
+        width: 100%;
+        border-radius: 20px 20px 0px 0px;  
+    }
+
+    .text-card {
+        width: 85%;
+        margin:  30px;
+    }
+
+    article {
+        background-color:hsl(240, 100%, 98%);
+        font-size: 12px;
+        height: 90px;
+        width: 85%;
+        border-radius: 10px;
+        margin: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    article img {
+        width: 50px;
+        border-radius: 20px 20px 20px 20px;  
+    }
+
+    article .block-left {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 55%;
+        justify-content: space-around;
+        margin-right: 40px;
+    }
+    
+    article h2 {
+        font-size: 12px;
+    }
+
+    a {
+        font-weight: 700;
+        color: hsl(245, 70%, 53%);
+        cursor: pointer;
+    }
+
+    a:hover{
+        color: hsl(245, 50%, 62%);
+    }
+
+    .btn-payment {
+        background-color: hsl(245, 70%, 53%);
+        width: 85%;
+        height: 30px ;
+        border:none;
+        border-radius: 8px;
+        margin:  25px;
+        padding-top: 10px;
+        color: white;
+        box-shadow: 5px 10px 20px rgba(0, 0, 0, .6);
+        font-size: 12px;
+        cursor: pointer;
+    }
+
+    .btn-payment:hover {
+        background-color: hsl(162, 77%, 69%);
+    }
+
+    .btn-cancel {
+        font-size: 12px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .btn-cancel:hover {
+        color: hsl(0, 46%, 47%);
+    }
+
+
+    /* desktop*/
+    @media only screen and (min-width:1440px){
+
+    }
+
+    /* mobile*/
+    @media only screen and (max-width:375px){
+       
+    }
+
+    
+    /*  hsl : hue, saturation, lightness */
+    /* vh : Equal to 1% of the height of the viewport's initial containing block.
+    vw: Equal to 1% of the width of the viewport's initial containing block. */
